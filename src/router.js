@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
-/*
 import Category from './theme/Category'
 import Login from './theme/Login'
 import NotFound from './theme/NotFound'
-*/
 
+/*
 const Category = () => System.import('./theme/Category.vue')
 const Login = () => System.import('./theme/Login.vue')
 const NotFound = () => System.import('./theme/NotFound.vue')
+*/
 
 Vue.use(VueRouter)
 
