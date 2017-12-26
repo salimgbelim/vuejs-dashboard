@@ -3,13 +3,15 @@
 import Vue from 'vue'
 import AppLayout from './theme/Layout'
 import router from './router'
+import store from './vuex/index'
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 const app = new Vue({
   router,
-  ...AppLayout
+  ...AppLayout,
+  store
 })
 
-export {app, router}
+export {app, router, store}
